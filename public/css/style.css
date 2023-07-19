@@ -1,0 +1,178 @@
+body {
+  background-color: #171717 !important;
+}
+/* Nav bar start */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  font-family: monospace
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #ca95fb;
+}
+
+.logo{
+  font-family: monospace
+}
+/* Nav bar end */
+
+/* start of form div */
+
+.form-div {
+  padding: 40px;
+  max-width: 700px;
+  border-radius: 20px;
+  margin: auto auto 70px;
+  background: #111111;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  gap: 30px;
+  place-items: start;
+  box-shadow: #ca95fb 0 1px 25px -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-div h1 {
+  color: ca95fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace
+}
+
+/* end of form div */
+
+
+/* input design start */
+.input {
+  color: #ca95fb;
+  border: 2px solid #ca95fb;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  width: 450px;
+  height: 60px;
+  font-size: 15px;
+  font-family: monospace
+
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #ca95fb inset;
+}
+
+/* input design end */
+
+
+/* button design start */
+
+.submit-btn {
+  margin: 12px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background: #171717;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #ca95fb 0 1px 25px -7px;
+  border: none;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+  font-family: monospace
+}
+
+.submit-btn:hover {
+  box-shadow: #ca95fb 0 4px 20px 0px;
+  color: #ca95fb;
+  transition: 500ms;
+}
+/* button design end */
+
+
+/* Glow start */
+
+.glow {
+  text-shadow: 0 0 10px white;
+  animation: glow-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-animation {
+  from {
+      text-shadow: 0 0 10px white;
+  }
+
+  to {
+      text-shadow: 0 0 20px white;
+  }
+}
+
+/* Glow end */
+
+/* generated img design start */
+
+.image {
+  width: 100%;
+  margin-top: 2rem;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.msg {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: monospace;
+}
+
+
+/*Generated img design end */
+
+
+/* Customize scrollbar start */
+
+::-webkit-scrollbar {
+  width: 8px; /* Width of scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333; /* Background color of track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b373ef; /* Color of thumb */
+  border-radius: 10px; /* Rounded corners of thumb */
+}
+
+/* Customize scrollbar End*/
